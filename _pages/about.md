@@ -5,13 +5,13 @@ permalink: /
 subtitle: <a href='https://www.topuniversities.com/universities/pohang-university-science-technology-postech'>POSTECH</a>, Pohang, Korea.
 
 profile:
-  align: left
+  align: right
   image: pic_JAEHO_cut.jpg
   image_circular: true # crops the image to make it circular
   address: >
+    <p>#310, LG Research Building</p>
     <p>EE, POSTECH</p>
     <p>Pohang, South Korea</p>
-    <p>jhchoi93@postech.ac.kr</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -22,3 +22,8 @@ I am a Ph.D Candidate at [POSTECH](https://www.topuniversities.com/universities/
 
 My research interests lie in **wireless sensing** and **machine learning**, for indoor human sensing and health monitoring. I am also interested in the **sensor fusion** and **multi-modal learning** algorithms.
 
+[jhchoi93@postech.ac.kr](jhchoi93@postech.ac.kr)
+
+[gogoho77@gmail.com](gogoho77@gmail.com)
+
+[CV](https://jhchoi93.github.io/assets/pdf/CV_Jae-Ho-Choi.pdf) / [Github](https://github.com/gogoho88)
