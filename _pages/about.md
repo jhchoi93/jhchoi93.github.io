@@ -2,10 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.topuniversities.com/universities/pohang-university-science-technology-postech'>POSTECH</a>, Pohang, Korea.
+subtitle: <a href=''>POSTECH</a>, Pohang, Korea.
 
 profile:
-  align: right
+  align: left
   image: pic_JAEHO_cut.jpg
   image_circular: true # crops the image to make it circular
   address: >
