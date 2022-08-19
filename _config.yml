@@ -70,7 +70,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: gogoho88
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+linkedin_username: gogoho88
 scholar_userid: # your Google Scholar ID
 orcid_id: 0000-0001-9484-4869
 medium_username: # your Medium username
@@ -221,8 +221,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Choi
+  first_name: Jae-Ho
 
   style: apa
   locale: en
