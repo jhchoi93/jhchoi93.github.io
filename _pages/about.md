@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>POSTECH</a>, Pohang, Korea.
+subtitle: POSTECH, Pohang, Korea.
 
 profile:
   align: left
