@@ -6,8 +6,8 @@ subtitle: <a href='https://www.topuniversities.com/universities/pohang-universit
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: pic_JAEHO_cut.jpg
+  image_circular: true # crops the image to make it circular
   address: >
     <p>Intelligent Radar Signal Processing Lab.</p>
     <p>EE, POSTECH</p>
