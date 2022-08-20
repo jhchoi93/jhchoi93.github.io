@@ -6,18 +6,7 @@ img: assets/img/RF-vital/overview.png
 importance: 1
 category: work
 ---
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>CSS</title>
-		<style>
-			img { display: block; margin: 0px auto; }
-		</style>
-	</head>
-	<body>
-		<img src="https://jhchoi93.github.io/assets/img/RF-vital/overview.png" width="700px" align="center" />
-	</body>
-</html>
+<p align="center"><img src="https://jhchoi93.github.io/assets/img/RF-vital/overview.png" width="700px"/></p>
 <br><br>
 
 ## Overview
@@ -27,18 +16,7 @@ Our RF-vital model outperforms the state-of-the-art video- and RF-based non-cont
 <br><br>
 
 ## Result Example
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>CSS</title>
-		<style>
-			img { display: block; margin: 0px auto; }
-		</style>
-	</head>
-	<body>
-		<img src="https://jhchoi93.github.io/assets/img/RF-vital/result.png" width="1050px" align="center" />
-	</body>
-</html>
+<p align="center"><img src="https://jhchoi93.github.io/assets/img/RF-vital/result.png" width="1050px"/></p>
 <br><br>
 
 ## Demo Video
