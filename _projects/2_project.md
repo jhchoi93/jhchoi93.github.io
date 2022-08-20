@@ -2,11 +2,11 @@
 layout: page
 title: RF-counting
 description: RF-Based Crowd Counting from Moving Individuals
-img: assets/img/publication_preview/2022_IoTJ_RPC2_main.png
+img: assets/img/publication_preview/2021_IoTJ1_output.png
 importance: 1
 category: Wireless Sensing
 ---
-<p align="center"><img src="https://jhchoi93.github.io/assets/img/publication_preview/2020_RadarConf_overall.png" width="600px"/></p>
+<p align="center"><img src="https://jhchoi93.github.io/assets/img/publication_preview/2020_RadarConf_overall.png" width="550px"/></p>
 <br><br>
 
 ## Overview
@@ -16,16 +16,24 @@ RF-counting reforms the overall DL framework for specialization in an RF-based c
 ## Result Example
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RF-counting/env_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RF-counting/env_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RF-counting/env_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RF-counting/env_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RF-counting/env_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RF-counting/env_3_example.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <br><br>
 
 ## Demo Video
-<iframe width="644" height="362" src="https://www.youtube.com/embed/SRfiu0eAav8" title="Radar-based people counting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p align="center"><iframe width="900px" src="https://www.youtube.com/embed/SRfiu0eAav8" title="Radar-based people counting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <br><br>
 
 ## Paper
