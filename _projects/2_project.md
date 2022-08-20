@@ -1,80 +1,38 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
-category: work
+title: RF-counting
+description: RF-Based Crowd Counting from Moving Individuals
+img: assets/img/publication_preview/2022_IoTJ_RPC2_main.png
+importance: 1
+category: Wireless Sensing
 ---
+<p align="center"><img src="https://jhchoi93.github.io/assets/img/publication_preview/2020_RadarConf_overall.png" width="600px"/></p>
+<br><br>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
+RF-counting reforms the overall DL framework for specialization in an RF-based crowd counting, in consideration of the domain knowledge of indoor radio signals. To ensure the deep neural network’s strength on automatic feature formation to become valid even for radio data and the final goal (i.e., use in a robust people counting system), we propose novel solutions from three principal aspects: 1) data preprocessing; 2) the design strategy for the network architecture; and 3) training of the deep network model. Several experimental results using real measured data show that the proposed scheme enables an effective utilization of deep learning framework for radio-based crowd counting, achieving a significant performance improvement compared to conventional methods.
+<br><br>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+## Result Example
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RF-counting/env_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RF-counting/env_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<br><br>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+## Demo Video
+<iframe width="644" height="362" src="https://www.youtube.com/embed/SRfiu0eAav8" title="Radar-based people counting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br>
 
+## Paper
+[**Deep Learning Approach for Radar-Based People Counting**](https://jhchoi93.github.io/assets/pdf/2022_IoTJ_RPC2_main.pdf)  
+Jae-Ho Choi, Ji-Eun Kim, and Kyung-Tae Kim  
+*IEEE Internet of Things Journal* **(IoTJ)**, May 2022
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+[**People Counting Using IR-UWB Radar Sensor in a Wide Area**](https://jhchoi93.github.io/assets/pdf/2021_IoTJ_RPC1_main.pdf)  
+Jae-Ho Choi, Ji-Eun Kim, and Kyung-Tae Kim  
+*IEEE Internet of Things Journal* **(IoTJ)**, Apr 2021
