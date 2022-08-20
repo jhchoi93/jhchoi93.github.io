@@ -1,8 +1,8 @@
 ---
 layout: page
 title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+description: RF-Based Crowd Counting
+img: assets/img/publication_preview/2021_IoTJ1_output.jpg
 importance: 1
 category: work
 ---
