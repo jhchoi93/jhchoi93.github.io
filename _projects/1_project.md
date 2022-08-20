@@ -2,12 +2,22 @@
 layout: page
 title: RF-vital
 description: RF-Based Health Monitoring from Moving Individuals
-img: assets/img/publication_preview/2021_IoTJ1_output.png
+img: assets/img/RF-vital/overview.png
 importance: 1
 category: work
 ---
-
-<img src="https://jhchoi93.github.io/assets/img/RF-vital/overview.png" width="500px" align="center" />
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CSS</title>
+		<style>
+			img { display: block; margin: 0px auto; }
+		</style>
+	</head>
+	<body>
+		<img src="https://jhchoi93.github.io/assets/img/RF-vital/overview.png" width="700px" align="center" />
+	</body>
+</html>
 <br><br>
 
 ## Overview
@@ -17,7 +27,18 @@ Our RF-vital model outperforms the state-of-the-art video- and RF-based non-cont
 <br><br>
 
 ## Result Example
-<img src="https://jhchoi93.github.io/assets/img/RF-vital/result.png" width="900px" align="center" />
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CSS</title>
+		<style>
+			img { display: block; margin: 0px auto; }
+		</style>
+	</head>
+	<body>
+		<img src="https://jhchoi93.github.io/assets/img/RF-vital/result.png" width="1050px" align="center" />
+	</body>
+</html>
 <br><br>
 
 ## Demo Video
