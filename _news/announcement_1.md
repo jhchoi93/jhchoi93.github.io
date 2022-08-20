@@ -1,10 +1,11 @@
 ---
-layout: A long announcement with details
+layout: post
+title: Our work on 'wireless vital monitoring from a moving individual' has been accepted to ***ECCV 2022***, one of the top international conferences in computer vision and machine learning.
 date: 2022-07-03 07:59:00-0400
 inline: false
 ---
 
-Our work on 'wireless vital monitoring from a moving individual' has been accepted to ***ECCV 2022***, one of the top international conferences in computer vision and machine learning.
+Our work on 'wireless vital monitoring from a moving individual' has been accepted to ***ECCV 2022***, one of the top international conferences in computer vision and machine learning. See below for details.
 
 ***
 <p align="center"><img src="https://jhchoi93.github.io/assets/img/RF-vital/overview.png" width="700px"/></p>

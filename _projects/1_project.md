@@ -4,7 +4,7 @@ title: RF-vital
 description: RF-Based Health Monitoring from Moving Individuals
 img: assets/img/RF-vital/overview.png
 importance: 1
-category: work
+category: Wireless Health
 ---
 <p align="center"><img src="https://jhchoi93.github.io/assets/img/RF-vital/overview.png" width="700px"/></p>
 <br><br>
