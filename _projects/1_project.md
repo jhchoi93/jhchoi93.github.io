@@ -7,26 +7,24 @@ importance: 1
 category: work
 ---
 
-<img src="https://jhchoi93.github.io/assets/img/RF-vital/overview.png" style="zoom: 33%;" />
+<img src="https://jhchoi93.github.io/assets/img/RF-vital/overview.png" width="500px" align="center" />
+<br><br>
 
 ## Overview
-
 **RF-vital** model learns the mapping from radio reflections to human respiration signal based on a novel multi-task adversarial learning  framework. Several test examples of our RF-vital model demonstrate the feasibility of recovering the fine respiration signs even under occluded, dark, and moving scenarios. 
 
 Our RF-vital model outperforms the state-of-the-art video- and RF-based non-contact vital measurement approaches in static scenarios. Moreover, it continues to work properly in large motion scenarios, where the current methods fail completely. Our methods also can provide robust estimations, even in dark-light conditions and occlusions, enabling more realistic implementations of contactless health monitoring systems.
-
+<br><br>
 
 ## Result Example
-<img src="https://jhchoi93.github.io/assets/img/RF-vital/result.png" />
-
+<img src="https://jhchoi93.github.io/assets/img/RF-vital/result.png" width="900px" align="center" />
+<br><br>
 
 ## Demo Video
-
 Coming soon.
-
+<br><br>
 
 ## Paper
-
 [**Remote Respiration Monitoring of Moving Person Using Radio Signals**](https://jhchoi93.github.io/assets/pdf/2022_ECCV_RFVital_main.pdf)  
 Jae-Ho Choi, Ki-Bong Kang, and Kyung-Tae Kim  
 *European Conference on Computer Vision* **(ECCV),** Oct 2022

@@ -22,8 +22,6 @@ I am a Ph.D Candidate at [POSTECH](https://www.topuniversities.com/universities/
 
 My research interests lie in **wireless sensing** and **machine learning**, for indoor human sensing and health monitoring. I am also interested in the **sensor fusion** and **multi-modal learning** algorithms.
 
-<jhchoi93@postech.ac.kr>
-
-<gogoho77@gmail.com>
-
+<jhchoi93@postech.ac.kr>  
+<gogoho77@gmail.com>  
 [CV](https://jhchoi93.github.io/assets/pdf/CV_Jae-Ho-Choi.pdf) / [Github](https://github.com/gogoho88)
