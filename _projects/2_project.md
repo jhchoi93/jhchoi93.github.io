@@ -22,18 +22,18 @@ RF-counting reforms the overall DL framework for specialization in an RF-based c
         {% include figure.html path="assets/img/RF-counting/env_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RF-counting/env_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RF-counting/env_3_example.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <br><br>
 
 ## Demo Video
-<p align="center"><iframe width="900px" src="https://www.youtube.com/embed/SRfiu0eAav8" title="Radar-based people counting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p align="center"><iframe width="900px" height="506px" src="https://www.youtube.com/embed/SRfiu0eAav8" title="Radar-based people counting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <br><br>
 
 ## Paper
