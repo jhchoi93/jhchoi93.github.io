@@ -7,7 +7,7 @@ importance: 1
 category: work
 ---
 
-<img src="./assets/img/RF-vital/overview.png" style="zoom: 33%;" />
+<img src="https://jhchoi93.github.io/assets/img/RF-vital/overview.png" style="zoom: 33%;" />
 
 ## Overview
 
@@ -17,7 +17,7 @@ Our RF-vital model outperforms the state-of-the-art video- and RF-based non-cont
 
 
 ## Result Example
-<img src="./assets/img/RF-vital/overview.png" />
+<img src="https://jhchoi93.github.io/assets/img/RF-vital/result.png" />
 
 
 ## Demo Video
@@ -27,6 +27,6 @@ Coming soon.
 
 ## Paper
 
-**Remote Respiration Monitoring of Moving Person Using Radio Signals**  
+[**Remote Respiration Monitoring of Moving Person Using Radio Signals**](https://jhchoi93.github.io/assets/pdf/2022_ECCV_RFVital_main.pdf)  
 Jae-Ho Choi, Ki-Bong Kang, and Kyung-Tae Kim  
 *European Conference on Computer Vision* **(ECCV),** Oct 2022
