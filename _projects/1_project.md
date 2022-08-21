@@ -28,7 +28,8 @@ The key idea is that the received radio signals retain both the reflections from
 Coming soon.
 <br><br>
 
-## Paper<hr>
+## Paper
+<hr>
 [**Remote Respiration Monitoring of Moving Person Using Radio Signals**](https://jhchoi93.github.io/assets/pdf/2022_ECCV_RFVital_main.pdf)  
 Jae-Ho Choi, Ki-Bong Kang, and Kyung-Tae Kim  
 *European Conference on Computer Vision* **(ECCV),** Oct 2022

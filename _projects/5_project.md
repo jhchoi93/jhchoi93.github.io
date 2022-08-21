@@ -8,7 +8,8 @@ category: Sensor Fusion
 ---
 <img src="https://img.shields.io/badge/-Sensor%20Fusion-ff69b4" height="30">&nbsp;&nbsp;<img src="https://img.shields.io/badge/-AI-blue" height="30">
 
-## *Aerial Detection/Classification from EO-IR-SAR Imagery*<hr>
+## *Aerial Detection/Classification from EO-IR-SAR Imagery*
+<hr>
 ### Dataset
 <p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/eo-ir-sar_dataset.png" width="700px"/></p>
 
@@ -21,7 +22,8 @@ For effective construction of the calibrated EO-IR-SAR dataset. We developted a 
 Based on the parallelized EfficientDet architecture, we comprehensively analyzed the detection/classification performance with respect to EO-IR-SAR fusion at each level, and designed an attention-based module to maximize the fusion gain.
 <br><br>
 
-## *Video-RF Fusion for Contactless Health Monitoring*<hr>
+## *Video-RF Fusion for Contactless Health Monitoring*
+<hr>
 ### Dataset
 <p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/video-rf_dataset.png" width="600px"/></p>
 
@@ -36,7 +38,8 @@ For complete utilization of the complementarity of RGB and RF, we present a nove
 Coming soon.
 <br><br>
 
-## Paper<hr>
+## Paper
+<hr>
 **Fusion-rPPG: Video-RF Fusion Transformer for Advanced Remote Physiology Measurement**  
 Jae-Ho Choi, Ki-Bong Kang, and Kyung-Tae Kim  
 *AAAI Conference on Artificial Intelligence* **(AAAI)**, Submitted
