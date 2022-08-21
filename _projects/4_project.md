@@ -35,3 +35,7 @@ Coming soon.
 **Fusion-rPPG: Video-RF Fusion Transformer for Advanced Remote Physiology Measurement**
 Jae-Ho Choi, Ki-Bong Kang, and Kyung-Tae Kim  
 *AAAI Conference on Artificial Intelligence* **(AAAI)**, Submitted
+
+[**Fusion of Target and Shadow Regions for Improved SAR ATR**](https://ieeexplore.ieee.org/document/9751685)  
+Jae-Ho Choi, Myung-Jun Lee, Nam-Hoon Jeong, Geon Lee, and Kyung-Tae Kim  
+*IEEE Transactions on Geoscience and Remote Sensing* **(TGRS)**, Apr 2022
