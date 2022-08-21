@@ -6,8 +6,8 @@ img: assets/img/RF-localization/RF-localization.gif
 importance: 3
 category: Wireless Sensing
 ---
-<img src="https://img.shields.io/badge/-Wireless%20Sensing-blueviolet">
-&nbsp;&nbsp;<img src="https://img.shields.io/badge/-Signal%20Processing-lightgrey">
+<img src="https://img.shields.io/badge/-Wireless%20Sensing-blueviolet" height="35">
+&nbsp;&nbsp;<img src="https://img.shields.io/badge/-Signal%20Processing-lightgrey" height="35">
 
 ## *Through-the-Wall Detection*
 ### Overview

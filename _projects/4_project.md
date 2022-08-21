@@ -2,26 +2,36 @@
 layout: page
 title: Sensor Fusion
 description: Developing/analyzing fusion algorithms of multi-modal inputs
-img: assets/img/RF-localization/RF-localization.gif
+img: assets/img/Sensor-Fusion/main.gif
 importance: 3
 category: Sensor Fusion
 ---
-<img src="https://img.shields.io/badge/-Sensor%20Fusion-ff69b4">&nbsp;&nbsp;<img src="https://img.shields.io/badge/-AI-blue">
+<img src="https://img.shields.io/badge/-Sensor%20Fusion-ff69b4" height="35">&nbsp;&nbsp;<img src="https://img.shields.io/badge/-AI-blue" height="35">
 
-## Video-RF Fusion for Contactless Health Monitoring
-### Overview
-<p align="center"><img src="https://jhchoi93.github.io/assets/img/RF-localization/Through-wall_result.png" width="500px"/></p>
+## *EO-IR-SAR Imagery Fusion*
+### Dataset
+<p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/eo-ir-sar_dataset.png" width="700px"/></p>
+
+### Methodology
+<p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/eo-ir-sar_result.png" width="1050px"/></p>
 
 RF sensors's radio property allows it to perceive the human targets throuh the occluded wall. To compensate for the low SNR components from the desired through-the-wall human reflections, we propose to leverage the scaled Fourier transform-based alignment and coherent signal integration.
 <br><br>
 
-## EO-IR-SAR Imagery Fusion
-### Overview
-<p align="center"><img src="https://jhchoi93.github.io/assets/img/RF-localization/FMCW_result.png" width="1050px"/></p>
+## *Video-RF Fusion for Contactless Health Monitoring*
+### Dataset
+<p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/video-rf_dataset.png" width="600px"/></p>
 
 MIMO configuration can provide the angular infromation of its surrounding targets based on spatially distributed receivers. Estimating the radial signatures from time-of-arrival (ToA) as well as the angular ones from angle-of-arrival (AoA) schemes, we can achieve the illuminatio/occlusion-resistant 2D localization system.
 
-### Demo Video
-<p align="center"><iframe width="350" height="226" title="localization of single person" src="https://www.youtube.com/embed/TEVrvEwUfgg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+### Methodology
+<p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/video-rf_framework.png" width="1050px"/></p>
 
-<p align="center"><iframe width="350" height="319" title="localization of multiple people" src="https://www.youtube.com/embed/tY5Yr5oMEA0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+### Methodology
+Coming soon.
+<br><br>
+
+## Paper
+**Fusion-rPPG: Video-RF Fusion Transformer for Advanced Remote Physiology Measurement**
+Jae-Ho Choi, Ki-Bong Kang, and Kyung-Tae Kim  
+*AAAI Conference on Artificial Intelligence* **(AAAI)**, Submitted
