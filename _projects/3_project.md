@@ -2,80 +2,27 @@
 layout: page
 title: RF-localization
 description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+img: assets/img/RF-localization/RF-localization.gif
 importance: 3
-category: work
+category: Wireless Sensing
 ---
+<img src="https://img.shields.io/badge/-Wireless%20Sensing-blueviolet">
+&nbsp;&nbsp;<img src="https://img.shields.io/badge/-Signal%20Processing-lightgrey">
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Single-Sensor Location via AoA Estimation
+### Overview
+<p align="center"><img src="https://jhchoi93.github.io/assets/img/RF-localization/FMCW_result.png" width="1050px"/></p>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+MIMO configuration can provide the angular infromation of its surrounding targets based on spatially distributed receivers. Estimating the radial signatures from time-of-arrival (ToA) as well as the angular ones from angle-of-arrival (AoA) schemes, we can achieve the illuminatio/occlusion-resistant 2D localization system.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Demo Video
+<p align="center"><iframe width="700" height="638" src="https://www.youtube.com/embed/tY5Yr5oMEA0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<p><iframe width="700" height="452" src="https://www.youtube.com/embed/TEVrvEwUfgg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<br><br>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+## Through-the-Wall Detection
+### Overview
+<p align="center"><img src="https://jhchoi93.github.io/assets/img/RF-localization/Through-wall_result.png" width="700px"/></p>
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+RF sensors's radio property allows it to perceive the human targets throuh the occluded wall. To compensate for the low SNR components from the desired through-the-wall human reflections, we propose to leverage the scaled Fourier transform-based alignment and coherent signal integration.
