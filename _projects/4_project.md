@@ -2,37 +2,42 @@
 layout: page
 title: Sensor Fusion
 description: Developing/analyzing fusion algorithms of multi-modal inputs
-img: assets/img/Sensor-Fusion/main.gif
+img: assets/img/Sensor-Fusion/main.png
 importance: 3
 category: Sensor Fusion
 ---
 <img src="https://img.shields.io/badge/-Sensor%20Fusion-ff69b4" height="30">&nbsp;&nbsp;<img src="https://img.shields.io/badge/-AI-blue" height="30">
 
-## *EO-IR-SAR Imagery Fusion*
+## *Aerial Detection/Classification from EO-IR-SAR Imagery*
 ### Dataset
 <p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/eo-ir-sar_dataset.png" width="700px"/></p>
+
+For effective construction of the calibrated EO-IR-SAR dataset. We developted a UAV-borne data acquisition system, which is capable of collecting temporally/spatially synchronized EO-IR images. In terms of SAR branch, we leveraged a cycle GAN framework to form corresponding fake-SAR images. 
+
 
 ### Methodology
 <p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/eo-ir-sar_result.png" width="1050px"/></p>
 
-RF sensors's radio property allows it to perceive the human targets throuh the occluded wall. To compensate for the low SNR components from the desired through-the-wall human reflections, we propose to leverage the scaled Fourier transform-based alignment and coherent signal integration.
+Based on the parallelized EfficientDet architecture, we comprehensively analyzed the detection/classification performance with respect to EO-IR-SAR fusion at each level, and designed an attention-based module to maximize the fusion gain.
 <br><br>
 
 ## *Video-RF Fusion for Contactless Health Monitoring*
 ### Dataset
 <p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/video-rf_dataset.png" width="600px"/></p>
 
-MIMO configuration can provide the angular infromation of its surrounding targets based on spatially distributed receivers. Estimating the radial signatures from time-of-arrival (ToA) as well as the angular ones from angle-of-arrival (AoA) schemes, we can achieve the illuminatio/occlusion-resistant 2D localization system.
+We collected our own dataset in two different conditions, which we refer to as RRMstatic and RRM-moving for stationary and moving conditions respectively. The RRM-static and RRM-moving datasets consist of synchronized FMCW radar echoes (i.e., RF signals), RGB videos, and ground-truth respiration signals, each of which was collected in a situation where a person faces forward while sitting in a chair or freely walks around the interior room, respectively. For static cases, we placed a chair about 70 cm away from the radar and camera, and then requested each participant to look straight ahead while holding her/his breath intermittently. For moving cases, we obtained FMCW radar reflections in moving scenarios where each person was allowed to walk around freely except for irregular movements such as a person running or falling, within a space of about 4 m × 5 m.
 
 ### Methodology
 <p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/video-rf_framework.png" width="1050px"/></p>
 
-### Methodology
+For complete utilization of the complementarity of RGB and RF, we present a novel network architecture, dubbed fusion-rPPG network, which employs both video and RF reflections for physiological measurement. To this end, our end-to-end fusion-rPPG network establishes an encoding branch matching the specific domain knowledge of each sensor, leveraging temporal shift convolutional attention network (TS-CAN) for the visual domain and time-Doppler representation-based 2D convolutional module for the radio domain. Furthermore, we introduce a transformer-based multi-level fusion strategy that aligns domain discrepancy while guaranteeing complementary/adaptive fusion from each sensory branch.
+
+### Demo Video
 Coming soon.
 <br><br>
 
 ## Paper
-**Fusion-rPPG: Video-RF Fusion Transformer for Advanced Remote Physiology Measurement**
+**Fusion-rPPG: Video-RF Fusion Transformer for Advanced Remote Physiology Measurement**  
 Jae-Ho Choi, Ki-Bong Kang, and Kyung-Tae Kim  
 *AAAI Conference on Artificial Intelligence* **(AAAI)**, Submitted
 

@@ -5,7 +5,7 @@ permalink: /projects/
 description: Collection of my participated projects.
 nav: true
 nav_order: 2
-display_categories:
+display_categories: [Wireless Sensing, Wireless Health, Sensor Fusion]
 horizontal: true
 ---
 
