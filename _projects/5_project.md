@@ -1,80 +1,46 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Sensor Fusion
+description: Developing/analyzing fusion algorithms of multi-modal inputs
+img: assets/img/Sensor-Fusion/main.png
 importance: 3
-category: fun
+category: Wireless Sensing
 ---
+<img src="https://img.shields.io/badge/-Sensor%20Fusion-ff69b4" height="30">&nbsp;&nbsp;<img src="https://img.shields.io/badge/-AI-blue" height="30">
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## *Aerial Detection/Classification from EO-IR-SAR Imagery*
+### Dataset
+<p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/eo-ir-sar_dataset.png" width="700px"/></p>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+For effective construction of the calibrated EO-IR-SAR dataset. We developted a UAV-borne data acquisition system, which is capable of collecting temporally/spatially synchronized EO-IR images. In terms of SAR branch, we leveraged a cycle GAN framework to form corresponding fake-SAR images. 
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Methodology
+<p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/eo-ir-sar_result.png" width="1050px"/></p>
 
+Based on the parallelized EfficientDet architecture, we comprehensively analyzed the detection/classification performance with respect to EO-IR-SAR fusion at each level, and designed an attention-based module to maximize the fusion gain.
+<br><br>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## *Video-RF Fusion for Contactless Health Monitoring*
+### Dataset
+<p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/video-rf_dataset.png" width="600px"/></p>
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+We collected our own dataset in two different conditions, which we refer to as RRMstatic and RRM-moving for stationary and moving conditions respectively. The RRM-static and RRM-moving datasets consist of synchronized FMCW radar echoes (i.e., RF signals), RGB videos, and ground-truth respiration signals, each of which was collected in a situation where a person faces forward while sitting in a chair or freely walks around the interior room, respectively. For static cases, we placed a chair about 70 cm away from the radar and camera, and then requested each participant to look straight ahead while holding her/his breath intermittently. For moving cases, we obtained FMCW radar reflections in moving scenarios where each person was allowed to walk around freely except for irregular movements such as a person running or falling, within a space of about 4 m × 5 m.
+
+### Methodology
+<p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/video-rf_framework.png" width="1050px"/></p>
+
+For complete utilization of the complementarity of RGB and RF, we present a novel network architecture, dubbed fusion-rPPG network, which employs both video and RF reflections for physiological measurement. To this end, our end-to-end fusion-rPPG network establishes an encoding branch matching the specific domain knowledge of each sensor, leveraging temporal shift convolutional attention network (TS-CAN) for the visual domain and time-Doppler representation-based 2D convolutional module for the radio domain. Furthermore, we introduce a transformer-based multi-level fusion strategy that aligns domain discrepancy while guaranteeing complementary/adaptive fusion from each sensory branch.
+
+### Demo Video
+Coming soon.
+<br><br>
+
+## Paper
+**Fusion-rPPG: Video-RF Fusion Transformer for Advanced Remote Physiology Measurement**  
+Jae-Ho Choi, Ki-Bong Kang, and Kyung-Tae Kim  
+*AAAI Conference on Artificial Intelligence* **(AAAI)**, Submitted
+
+[**Fusion of Target and Shadow Regions for Improved SAR ATR**](https://ieeexplore.ieee.org/document/9751685)  
+Jae-Ho Choi, Myung-Jun Lee, Nam-Hoon Jeong, Geon Lee, and Kyung-Tae Kim  
+*IEEE Transactions on Geoscience and Remote Sensing* **(TGRS)**, Apr 2022
