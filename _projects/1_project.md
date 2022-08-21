@@ -6,6 +6,8 @@ img: assets/img/RF-vital/overview.png
 importance: 1
 category: Wireless Health
 ---
+<img src="https://img.shields.io/badge/-Wireless%20Health-brightgreen"><img src="https://img.shields.io/badge/-AI-blue">
+
 <p align="center"><img src="https://jhchoi93.github.io/assets/img/RF-vital/overview.png" width="700px"/></p>
 <br><br>
 

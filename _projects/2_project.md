@@ -6,6 +6,8 @@ img: assets/img/publication_preview/2021_IoTJ1_output.png
 importance: 1
 category: Wireless Sensing
 ---
+<img src="https://img.shields.io/badge/-Wireless%20Sensing-blueviolet"><img src="https://img.shields.io/badge/-AI-blue">
+
 <p align="center"><img src="https://jhchoi93.github.io/assets/img/publication_preview/2020_RadarConf_overall.png" width="550px"/></p>
 <br><br>
 
