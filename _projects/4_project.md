@@ -6,7 +6,7 @@ img: assets/img/Sensor-Fusion/main.gif
 importance: 3
 category: Sensor Fusion
 ---
-<img src="https://img.shields.io/badge/-Sensor%20Fusion-ff69b4" height="35">&nbsp;&nbsp;<img src="https://img.shields.io/badge/-AI-blue" height="35">
+<img src="https://img.shields.io/badge/-Sensor%20Fusion-ff69b4" height="30">&nbsp;&nbsp;<img src="https://img.shields.io/badge/-AI-blue" height="30">
 
 ## *EO-IR-SAR Imagery Fusion*
 ### Dataset
