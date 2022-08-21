@@ -22,6 +22,7 @@ The complex nature of the RF signal allows it to measure not only the radial dis
 <p align="center"><img src="https://jhchoi93.github.io/assets/img/micro-Doppler/voice.png" width="700px"/></p>
 
 Caturing the micro-Doppler signatures near the neck, human voice according to vocal cord shaking can also be reconstructed from RF reflections. 
+
 <br><br>
 
 ## *Micro-Doppler for UAV targets*
@@ -29,6 +30,7 @@ Caturing the micro-Doppler signatures near the neck, human voice according to vo
 <p align="center"><img src="https://jhchoi93.github.io/assets/img/micro-Doppler/UAV.png" width="1050px"/></p>
 
 We establish the theoretical foundation connecting the micro-Doppler signatures and motion dynamics of small UAVs based on the Doppler spectrum, and analyze their spectral distribution using simulations and measured data. In addition, comprehensive experimental analyses are conducted using the data measured from various types of small UAVs considering the translational motion and aspect change.
+
 <br><br>
 
 ## Paper

@@ -20,6 +20,7 @@ For effective construction of the calibrated EO-IR-SAR dataset. We developted a 
 <p align="center"><img src="https://jhchoi93.github.io/assets/img/Sensor-Fusion/eo-ir-sar_result.png" width="1050px"/></p>
 
 Based on the parallelized EfficientDet architecture, we comprehensively analyzed the detection/classification performance with respect to EO-IR-SAR fusion at each level, and designed an attention-based module to maximize the fusion gain.
+
 <br><br>
 
 ## *Video-RF Fusion for Contactless Health Monitoring*
@@ -36,6 +37,7 @@ For complete utilization of the complementarity of RGB and RF, we present a nove
 
 ### Demo Video
 Coming soon.
+
 <br><br>
 
 ## Paper

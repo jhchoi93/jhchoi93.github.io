@@ -20,7 +20,8 @@ RF-counting reforms the overall DL framework for specialization in an RF-based c
 <br><br>
 
 ## Demo Video
-<p align="center"><iframe width="900px" height="506px" src="https://www.youtube.com/embed/SRfiu0eAav8" title="Radar-based people counting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p align="center"><iframe width="450px" height="253px" src="https://www.youtube.com/embed/SRfiu0eAav8" title="Radar-based people counting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <br><br>
 
 ## Paper<hr>
