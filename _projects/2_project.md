@@ -24,7 +24,8 @@ RF-counting reforms the overall DL framework for specialization in an RF-based c
 
 <br><br>
 
-## Paper<hr>
+## Paper
+<hr>
 [**Deep Learning Approach for Radar-Based People Counting**](https://jhchoi93.github.io/assets/pdf/2022_IoTJ_RPC2_main.pdf)  
 Jae-Ho Choi, Ji-Eun Kim, and Kyung-Tae Kim  
 *IEEE Internet of Things Journal* **(IoTJ)**, May 2022
