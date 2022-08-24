@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Ph.D Candidate at [POSTECH](https://www.topuniversities.com/universities/pohang-university-science-technology-postech) (Pohang University of Science and Technology), advised by Prof. Kyung-Tae Kim. I did my M.S. at POSTECH and B.S. at [Korea University](https://www.topuniversities.com/universities/korea-university). 
 
-My research interests lie in **wireless sensing** and **machine learning**, for indoor human sensing and health monitoring. I am also interested in the **sensor fusion** and **multi-modal learning** algorithms.
+My research interests lie in **machine learning for device-free wireless sensing**, such as RF-based localization, crowd counting, and non-contact health monitoring. I am also interested in the **computer vision** and **sensor fusion** algorithms.
 
 <jhchoi93@postech.ac.kr>  
 <gogoho77@gmail.com>  
