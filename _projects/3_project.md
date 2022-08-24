@@ -18,7 +18,7 @@ RF sensors's radio property allows it to perceive the human targets throuh the o
 
 <br><br>
 
-## *Single-Sensor Location via AoA Estimation*
+## *Single-Sensor Localization via AoA Estimation*
 <hr>
 ### Overview
 <p align="center"><img src="https://jhchoi93.github.io/assets/img/RF-localization/FMCW_result.png" width="1050px"/></p>
